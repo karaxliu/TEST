@@ -1,0 +1,26 @@
+body{
+	background-color: floralwhite;
+}
+h1{
+font-size: 30px;
+color: darksalmon;
+}
+h2{
+color: sienna;
+font-size: 20px;
+font-family: avenir next;
+font-weight: lighter;
+}
+
+.big{
+font-size: 60px;
+}
+
+.uppercase{text-transform: uppercase;}
+.big.uppercase{
+color: peru
+}
+
+h1 span{
+color: moccasin;
+}
