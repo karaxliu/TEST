@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+}
+
+header{
+	background-color: white;
+	padding-top: 48px;
+	padding-bottom: 12px;
+	padding-left: 22px
+}
+
+header img{
+	width: 120px;
+	align-items: 
+}
+
+header h1{
+	color: #424949;
+	font-family: avenir, helvetica, karla, arial, sans-serif;
+	font-weight: lighter;
+	font-size: 9pt;
+	letter-spacing: 1px;
+	padding-right: 22px;
+}
+
+main{
+	background-color: #F3F1E9;
+	padding-left: 22px;
+	padding-bottom: 98px;
+}
+
+main h1{
+	color: #424949;
+	font-family: avenir, helvetica, karla, arial, sans-serif;
+	font-weight: lighter;
+	font-size: 12pt;
+	letter-spacing: 1px;
+}
+
+main h2{
+	color: black;
+	font-family: cormorant infant, times new roman;
+	font-size: 28pt;
+}
+
+main h3{
+	color: black;
+	font-family: avenir, helvetica, karla, arial, sans-serif;
+	font-weight: lighter;
+	font-size: 9pt;
+	text-transform: uppercase;
+}
+
+main p{
+	color: black;
+	font-family: avenir, helvetica, karla, arial, sans-serif;
+	font-weight: normal;
+	font-size: 9pt;
+}
