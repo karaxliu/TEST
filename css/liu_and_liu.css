@@ -65,13 +65,59 @@ a{
 	text-decoration: none;
 }
 a:hover{
-	color: #4F602F;
 	text-decoration: underline;
+	font-weight: bold;
 }
+
+/*container styles*/
+
+.container-hero{
+	margin: 0;
+	display: grid;
+	grid-row: 1fr;
+	grid-column: 2fr;
+	grid-gap: 28px
+}
+
+.cell-left{
+	width: 60%;
+	text-align: right;
+	float: right;
+}
+
+.cell-right{
+	width: 40%; 
+	text-align: left; 
+	line-height: 50px;
+}
+
+.cell-right h2 h3{
+	width: 25%;
+}
+
+.container {
+	margin: 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+.cell {
+	color: black;
+	text-align: left;
+	padding: 4rem;
+}
+
+
 
 /*footer styles*/
 
 footer{
+	padding: 0
+	background-color: white;
+}
+
+footer p{
 	padding: 18px 18px 4px;
 	text-align: right;
 	color: black;
