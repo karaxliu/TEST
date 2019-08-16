@@ -1,14 +1,12 @@
 body{
 	margin: 0;
-	line-height: 20px;
 }
+
+/*header styles*/
 
 header{
 	background-color: white;
-	padding-top: 48px;
-	padding-bottom: 12px;
-	padding-left: 28px;
-	padding-right: 28px;
+	padding: 48px 28px 12px;
 }
 
 header img{
@@ -23,12 +21,11 @@ header h1{
 	letter-spacing: 1px;
 }
 
+/*main styles*/
+
 main{
 	background-color: #F3F1E9;
-	padding-top: 120px;
-	padding-left: 28px;
-	padding-right: 28px;
-	padding-bottom: 98px;
+	padding: 120px 28px 98px;
 }
 
 main h1{
@@ -37,6 +34,7 @@ main h1{
 	font-weight: bold;
 	font-size: 12pt;
 	letter-spacing: 2px;
+	line-height: 20px;
 }
 
 main h2{
@@ -51,6 +49,7 @@ main h3{
 	font-weight: lighter;
 	font-size: 9pt;
 	text-transform: uppercase;
+	line-height: 20px;
 }
 
 main p{
@@ -58,6 +57,7 @@ main p{
 	font-family: avenir, helvetica, karla, arial, sans-serif;
 	font-weight: normal;
 	font-size: 9pt;
+	line-height: 20px;
 }
 
 a{
@@ -69,11 +69,13 @@ a:hover{
 	text-decoration: underline;
 }
 
+/*footer styles*/
+
 footer{
-	padding: 4px 28px;
+	padding: 18px 18px 4px;
 	text-align: right;
 	color: black;
 	font-family: avenir, helvetica, karla, arial, sans-serif;
 	font-weight: lighter;
-	font-size: 9pt;
+	font-size: 7pt;
 }
