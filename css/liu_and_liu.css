@@ -25,7 +25,7 @@ header h1{
 
 main{
 	background-color: #F3F1E9;
-	padding: 120px 28px 98px;
+	padding: 120px 0 98px;
 }
 
 main h1{
@@ -34,7 +34,9 @@ main h1{
 	font-weight: bold;
 	font-size: 12pt;
 	letter-spacing: 2px;
+	text-align: center;
 	line-height: 20px;
+	padding: 56px 0;
 }
 
 main h2{
@@ -46,7 +48,7 @@ main h2{
 main h3{
 	color: black;
 	font-family: avenir, helvetica, karla, arial, sans-serif;
-	font-weight: lighter;
+	font-weight: normal;
 	font-size: 9pt;
 	text-transform: uppercase;
 	line-height: 20px;
@@ -72,40 +74,29 @@ a:hover{
 /*container styles*/
 
 .container-hero{
+	max-width: 80%
 	margin: 0;
-	display: grid;
-	grid-row: 1fr;
-	grid-column: 2fr;
-	grid-gap: 28px
+	padding-bottom: 200px;
+	text-align: center;
 }
 
-.cell-left{
-	width: 60%;
-	text-align: right;
-	float: right;
-}
-
-.cell-right{
-	width: 40%; 
-	text-align: left; 
-	line-height: 50px;
-}
-
-.cell-right h2 h3{
-	width: 25%;
-}
-
-.container {
+.container{
 	margin: 2rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr; 
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-gap: 10px;
 }
-.cell {
+.cell{
 	color: black;
 	text-align: left;
 	padding: 4rem;
+}
+
+.cell-image {
+	max-width: 100%;
+	vertical-align: bottom;
+	padding: 100px 150px 50px 50px ;
 }
 
 
@@ -118,7 +109,7 @@ footer{
 }
 
 footer p{
-	padding: 18px 18px 4px;
+	padding: 56px 18px 4px;
 	text-align: right;
 	color: black;
 	font-family: avenir, helvetica, karla, arial, sans-serif;
