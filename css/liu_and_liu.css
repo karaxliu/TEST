@@ -16,7 +16,7 @@ header img{
 header h1{
 	color: #424949;
 	font-family: avenir, helvetica, karla, arial, sans-serif;
-	font-weight: lighter;
+	font-weight: bold;
 	font-size: 9pt;
 	letter-spacing: 1px;
 }
@@ -66,27 +66,37 @@ a{
 	color: black;
 	text-decoration: none;
 }
+
+a .cell:hover{
+	border: 1px solid black;
+	border-style: solid;
+	outline-width: thin;
+}
+
 a:hover{
-	text-decoration: underline;
+text-decoration: none;
 	font-weight: bold;
 }
+
 
 /*container styles*/
 
 .container-hero{
-	max-width: 80%
+	max-width: 70%
 	margin: 0;
 	padding-bottom: 200px;
 	text-align: center;
 }
 
 .container{
-	margin: 2rem;
+	margin: 3rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr; 
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-gap: 10px;
+	padding-bottom: 200px;
 }
+
 .cell{
 	color: black;
 	text-align: left;
@@ -94,10 +104,26 @@ a:hover{
 }
 
 .cell-image {
-	max-width: 100%;
+	max-width: 50%;
 	vertical-align: bottom;
 	padding: 100px 150px 50px 50px ;
 }
+
+.container-travel{
+	margin: 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr; 
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 10px;
+	padding-bottom: 200px;
+}
+
+.cell-travel{
+	color: black;
+	text-align: left;
+	padding: 4rem;
+}
+
 
 
 
