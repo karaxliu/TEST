@@ -14,7 +14,7 @@ header img{
 }
 
 header h1{
-	color: #424949;
+	color: black;
 	font-family: avenir, helvetica, karla, arial, sans-serif;
 	font-weight: bold;
 	font-size: 9pt;
@@ -24,7 +24,7 @@ header h1{
 /*main styles*/
 
 main{
-	background-color: #F3F1E9;
+	background-color: #F9F8F6;
 	padding: 120px 0 98px;
 }
 
@@ -49,7 +49,7 @@ main h3{
 	color: black;
 	font-family: avenir, helvetica, karla, arial, sans-serif;
 	font-weight: normal;
-	font-size: 9pt;
+	font-size: 9pt;#F9F8F6
 	text-transform: uppercase;
 	line-height: 20px;
 }
@@ -77,15 +77,44 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
+
 a .cell:hover{
 	border: 1px solid black;
 	border-style: solid;
 	outline-width: thin;
+	background-color: white;
+	box-shadow: 5px 5px #F4DBDB;
 }
 
-a:hover{
-text-decoration: none;
-	font-weight: bold;
+
+/*hero box styles*/
+
+.row {
+	display: flex;
+	padding-bottom: 200px;
+}
+
+.column-left {
+	flex: 65%;
+	padding: 0 28px 0 200px;
+	text-align: right;
+}
+
+.column-right {
+	flex: 35%;
+	padding: 0 300px 0 78px;
+	text-align: left;
+}
+
+.in-column-border-box {
+	padding: 0 78px 150px 56px;
+	border: 1px solid black;
+	border-style: solid;
+	outline-width: thin;
 }
 
 
